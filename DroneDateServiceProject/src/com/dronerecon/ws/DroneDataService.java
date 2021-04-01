@@ -49,7 +49,7 @@ public class DroneDataService extends HttpServlet{
 
         } catch (Exception ex) {
             ex.printStackTrace();
-            System.out.println("An error occurred in callWeatherWebService() in WeatherServiceManager: " + ex.toString());
+            System.out.println("An error occurred in : " + ex.toString());
         }
 
 
